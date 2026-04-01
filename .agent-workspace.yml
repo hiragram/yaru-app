@@ -1,0 +1,6 @@
+profiles:
+    worktree-zellij:
+        dockerfile: "agent-workspace/Dockerfile"
+    local:
+        environment: "host"
+        launch: "zellij"
